@@ -1,1 +1,1 @@
-web: build/install/kotlinserver/bin/kotlinserver
+web:    java -jar target/helloworld.jar
