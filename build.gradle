@@ -28,7 +28,7 @@ repositories {
     maven { url 'https://kotlin.bintray.com/ktor' }
 }
 
-mainClassName = 'io.ktor.server.netty.EngineMain'
+mainClassName = 'ru.powerman23rus.ApplicationKt'
 task stage {
     dependsOn installDist
 }
